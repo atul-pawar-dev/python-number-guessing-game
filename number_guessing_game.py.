@@ -30,5 +30,5 @@ def play_game():
             print(f"Correct! You guessed it in {attempts} attempts.")
             break
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     play_game()
